@@ -25,7 +25,6 @@ gem 'jbuilder', '2.10.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '1.7.2', require: false
-# gem 'net-smtp', '0.3.1'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
@@ -58,4 +57,4 @@ group :production do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
